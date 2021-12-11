@@ -1,0 +1,1 @@
+sudo tc qdisc delete dev lo root netem delay 100ms 50ms reorder 8% corrupt 5% duplicate 2% 5% loss 5%
